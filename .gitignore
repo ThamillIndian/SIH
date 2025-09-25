@@ -1,0 +1,106 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# PyTorch / ML Models
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# Training Outputs
+runs/
+logs/
+tensorboard/
+wandb/
+
+# Data (keep structure but ignore large files)
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tiff
+data/**/*.webp
+!data/**/.gitkeep
+
+# Artifacts
+artifacts/*.onnx
+artifacts/*.png
+artifacts/*.jpg
+artifacts/*.json
+!artifacts/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Ultralytics specific
+yolov8*.pt
+yolo*.pt
+*.cache
+
+# ONNX Runtime
+*.ort
+
+# Keep important structure files
+!data/.gitkeep
+!artifacts/.gitkeep
+!waste_cls/.gitkeep
